@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.weatherContainer {
+  display: flex;
+  margin: 5rem auto;
+  width: 48%;
+  background: #f8f8f8;
+}
+
+.weatherContainer--flexbox {
+  display: flex;
+}
+
+
+.weatherContainer--width100 {
+  width: 100%;
+}
+
+.weekContainer__title {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  background: #e9ecef;
+  text-transform: uppercase;
+}
+
+.weekContainer__day {
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.weatherCard {
+  width: 180px;
+  color: #fff;
+  height: 220px;
+  margin: 0.5rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  flex-shrink: 0;
+  font-weight: bold;
+}
+
+.weatherCard__title {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.weatherCard__item {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherCard__icon {
+  justify-content: center;
+  display: flex;
+}
+
+.weatherCard__morning {
+  background: linear-gradient(#8dcdba, #f0eebc);
+}
+
+.weatherCard__afternoon {
+  background: linear-gradient(#f0eebc, #ee8049);
+}
+
+.weatherCard__evening {
+  background: linear-gradient(#291c6b, #884186);
+}
+
+.weatherCard__night {
+  background: linear-gradient(#111642, #123352);
+}
